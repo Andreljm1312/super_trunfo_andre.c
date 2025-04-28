@@ -1,4 +1,5 @@
 #include <Studio.h>
 
-int main
+int main(){
 scanf 
+}
