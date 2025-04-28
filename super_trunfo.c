@@ -47,3 +47,4 @@ printf("Número de Pontos Turísticos: %d\n",carta1.Pontos_turisticos);
 
 return 0;
 }
+
