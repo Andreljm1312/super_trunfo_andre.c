@@ -1,4 +1,4 @@
-#include <Studio.h>
+#include <stdio.h>
 
 int main(){
 
@@ -19,12 +19,20 @@ Super Trunfo{
 //cartas
 //cadastro da primeria carta
 printf("cadastre a 1° carta:\n")
-printf("codigo da carta de 01 a 04(ex: A01,B03)\n")
-scanf("%s", carta1° codigo);
-
-
-
-
+printf("Uma letra de 'A' a 'H' (representando um dos oito estados): \n")
+scanf("%c" carta1.estado);
+printf("digite o codigo da carta de 01 a 04(ex: A01,B03): \n")
+scanf("%s", carta1.codigo);
+printf("Digite o nome da cidade: \n")
+scanf("%s"carta1.cidade);
+printf("digite o numero de habitantes: \n");
+scanf("%d"carta1.habitantes);
+printf("Digitar a area da cidade em quilometros: \n");
+scanf("%.2f"carta1.area);
+printf("Digitar o PIB: \n");
+scanf("%.2f"carta1.PIB);
+prinft("Quantos pontos turisticos tem: \n");
+scanf("%d"carta1.pontosturisticos);
 
 return 0;
 }
